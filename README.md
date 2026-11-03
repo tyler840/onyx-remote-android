@@ -8,6 +8,8 @@ press gets a confirmed answer from the console.
 There is no official Onyx remote for Android; this fills that gap for
 wall-mounted or handheld tablets.
 
+![The panel: buttons and two cuelist faders, after a GO press that Onyx confirmed](docs/screenshots/panel.png)
+
 **Install:** download the APK from [Releases](../../releases) (Android 8.0+). Sideload it with
 `adb install`, or copy it to the tablet and open it (allow "install unknown
 apps" for the file manager when asked).
@@ -39,6 +41,15 @@ including `Cuelist Not Found`, which Onyx reports with a `200 Ok` code.
    tap a tile to edit it, drag a tile to move it, drag its corner to resize.
    **Page setup** sets the grid size (up to 12×12); **+ Page** adds a page.
 5. Tap **Done**.
+
+| Edit mode | Tile editor |
+|---|---|
+| ![Edit mode: each tile shows the commands it sends, with a resize handle](docs/screenshots/edit-mode.png) | ![Tile editor: a three-step macro (release, wait, go) with Test now](docs/screenshots/tile-editor.png) |
+
+<img src="docs/screenshots/settings.png" width="49%" alt="Settings: Onyx address, port, heartbeat and panel options">
+
+The screenshots were taken on an emulator against `tools/onyx_telnet_sim.py`,
+which is why the address is `10.0.2.2:2323`.
 
 Back never leaves the panel. The app can also be chosen as the tablet's Home
 app (Android asks the first time you press Home), which keeps it in front

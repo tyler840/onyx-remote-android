@@ -147,3 +147,8 @@ app/src/main/java/com/gsb/onyxremote/
 docs/ONYX_TELNET_REFERENCE.md   the Onyx telnet protocol, as observed on a console
 tools/onyx_telnet_sim.py        stand-in Onyx for bench testing
 ```
+
+## License
+
+[MIT](LICENSE). Onyx and Obsidian Control Systems are trademarks of their
+owners; this project is not affiliated with or endorsed by them.
